@@ -8,3 +8,5 @@
 	c) 'Print' - print forest of all '*.cpp' file trees. Also count frequency included files and print.
 	d) 'PrintTree' - support method, intended to show tree. 'vector<fs::path> parent' - needed to control cycled including files.
 	e) 'AddFrequency' - support method, fill 'listFreq' with files and it included frequency.
+
+3. Add file 'analyser.h' and static class 'Analyser'. Method 'Analyze' browse recursively 'fs::path directory' and build tree of included files for all '.cpp' files.
